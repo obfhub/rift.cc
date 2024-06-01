@@ -1,4 +1,3 @@
--- dyn allowed me to use this Ui ty dyn
 -- rift.cc ui library made with much love by dadu <33
 
 local Library = {}
@@ -152,7 +151,7 @@ coroutine.wrap(ANPSVV_fake_script)()
 --Properties:
 
 rift.Name = "rift"
-rift.Parent = cloneref(game.CoreGui)
+rift.Parent = game.CoreGui
 rift.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 menu_back.Name = "menu_back"
@@ -2835,4 +2834,5 @@ end)
     return items
 
 end
+
 
