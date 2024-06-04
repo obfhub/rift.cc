@@ -151,7 +151,7 @@ coroutine.wrap(ANPSVV_fake_script)()
 --Properties:
 
 rift.Name = "rift"
-rift.Parent = game.CoreGui
+rift.Parent = cloneref(game.CoreGui)
 rift.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 menu_back.Name = "menu_back"
@@ -2834,5 +2834,3 @@ end)
     return items
 
 end
-
-
